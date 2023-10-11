@@ -9,19 +9,19 @@
   </rule>
   <rule id="100015" level="12">
     <if_sid>100014</if_sid>
-    <field name="ram">^8\.+|^9\.+|^100\.+</field>
+    <field name="ram">^80\.+|^90\.+|^100\.+</field>
     <description>Memory Usage is High $(ram)</description>
     <options>no_full_log</options>
   </rule>
   <rule id="100016" level="12">
     <if_sid>100014</if_sid>
-    <field name="cpu">^8\.+|^9\.+|^100\.+</field>
+    <field name="cpu">^80\.+|^90\.+|^100\.+</field>
     <description>CPU Usage is High $(cpu)</description>
     <options>no_full_log</options>
   </rule>
   <rule id="100017" level="12">
     <if_sid>100014</if_sid>
-    <field name="disk">^7\.+|^8\.+|^9\.+|^100\.+</field>
+    <field name="disk">^70\.+|^80\.+|^90\.+|^100\.+</field>
     <description>Disk Space is Running Low $(disk)</description>
     <options>no_full_log</options>
   </rule>
